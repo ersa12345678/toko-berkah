@@ -19,8 +19,8 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="header">
-        <h1 className="home-title">Welcome to MY-TOKO</h1>
-        <p className="home-subtitle">Your one-stop shop for all your needs</p>
+        <h1 className="home-title">Selamat Datang di TOKO BERKAH</h1>
+        <p className="home-subtitle">Tempat yang tepat untuk semua kebutuhan Anda</p>
       </header>
 
       <div className="product-list">
@@ -29,7 +29,6 @@ const Home = () => {
         ))}
       </div>
 
-      
       <style>{`
         .home-container {
           padding: 20px;
@@ -39,6 +38,7 @@ const Home = () => {
           flex-direction: column;
           align-items: center;
           font-family: 'Arial', sans-serif;
+          margin-top: 50px; /* Add margin to move content down */
         }
 
         .header {
