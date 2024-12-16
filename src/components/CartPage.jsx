@@ -34,7 +34,7 @@ const CartPage = () => {
 
   return (
     <div className="container mt-5" style={{ maxHeight: '80vh', overflowY: 'auto' }}>
-      {/* Spacer to push title down */}
+      
       <div className="mb-4"></div>
       <h2 className="text-center mb-4">Keranjang KU</h2>
       {cartItems.length === 0 ? (
